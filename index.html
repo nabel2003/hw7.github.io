@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        
+        #main{
+            
+            padding: 10px;
+            margin: auto;
+            width: 300px;
+            height: 350px;
+            background-image: linear-gradient(red, yellow);
+            text-align: center;
+            
+        }
+        #image{
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            margin: auto;
+            border-radius: 50%;
+            
+            
+        }
+        i{
+            font-size: large;
+            margin-right: 8px;
+            
+            
+        }
+        .in{
+            border: none;
+            background-color: rgba(0, 255, 255, 0);
+        
+            
+        }
+        .under{
+            margin: 30px 30px;
+            border-bottom: 1px solid black;
+
+        }
+        .in::placeholder{
+        color:rgba(0, 0, 0, 0.632);
+    
+    }
+    a{
+
+       
+        text-decoration:none;
+        color:white;
+        
+        
+        
+        
+    }
+    #link{
+        background-color: blueviolet;
+        border-radius: 15px;
+        width: 70px;
+        margin: auto;
+        
+
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="image"></div>
+        <h2 >login</h2>
+        <div class="under">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" class="in" placeholder="user name"><br>
+        </div>
+        <div class="under">
+        <i class="fa-solid fa-lock" ></i>
+        <input type="password" class="in" placeholder="password"><br>
+        </div>
+        <div id="link">
+        <a href="">login</a>
+        </div>
+    </div>
+</body>
+</html>
